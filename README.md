@@ -2,3 +2,5 @@
 Abstract: Speech to text is widely available and nothing new. The available tools to complete speech transcription from direct input (like a microphone) are good but fall short during audio file transcription (mp3/wav). The aim of this paper is to research and implement a novel audio transcription method that is hopefully more accurate, lightweight, faster, and requires less training than conventional speech to text models like CMU-Sphinx or Google’s Speech Recognition. This novel method employs cosine similarity to break down words into phonetic partitions that are compared to a lightweight dataset of formant vectors that correspond to a sound which has possible syntactic outcomes (letters). The result of this research is a relatively simpler, novel way to transcribe audio specifically designed to tackle file audio.
 
 Conclusion: The biggest limiting factor is time variance in speech. However, this can be overcome by combining the proposed method with an RNN.
+
+https://youtu.be/yx1HHp-oYxY
